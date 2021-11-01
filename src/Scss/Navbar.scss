@@ -1,0 +1,23 @@
+.navbar-container {
+    width: 100%;
+    background-color: #21252E;
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        margin-right: 1em;
+        li {
+            padding: 1em;
+            margin-right: 0.7em;
+            background-color: #0D0B12;
+        }
+        i {
+            padding-right: 0.3em;;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}

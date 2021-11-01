@@ -1,0 +1,41 @@
+.table-container {
+    margin-top: 1em;
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 0.05em;
+    background-color:#1b1b1b;
+    border: 1px solid #464545;
+
+    thead > tr > th{
+        padding: 0.25em;
+        border: 1px solid #464545;
+    }
+    
+    & .theader {
+        min-width: 7em;
+        padding: 0.50em;
+        background-color: #222;
+        text-align: left;
+        font-weight: bold;
+        .button-sort {
+            border: none;
+            background-color: transparent;
+            i {
+                padding-left: 0.3em;
+                color: #0ce3ac
+            }
+        }
+    }
+
+    & td {
+        padding: 1em;
+        border: 1px solid #464545;
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #0ce3ac;
+        }
+    }
+}
+
